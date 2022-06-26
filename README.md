@@ -1,6 +1,9 @@
-# Anonymous submission to ECML PKDD 2022
+# ECML-PKDD 2022- **Foveated Neural Computation**
 
-Title: **Foveated Neural Computation**
+This repository contains the code and data  for the paper **Foveated Neural Computation**, accepted for publication at the ECML-PKDD 2022 conference. 
+
+*Authors:*  [Matteo Tiezzi](https://mtiezzi.github.io/), Simone Marullo,  Alessandro Betti, Enrico Meloni, Lapo Faggi, Marco Gori and Stefano Melacci.
+
 
 _Notice that reproducibility is not guaranteed by PyTorch across different releases, platforms, hardware. Moreover,
 determinism cannot be enforced due to use of PyTorch operations for which deterministic implementations do not exist
@@ -176,7 +179,7 @@ We report here a command line example to launch the script in the case of FCLs:
 Background Spurious correlations
 --------------------------------
 
-We provide the preprocessed data for this task in folder `data/task3`. The subfolder `original_preprocessed` contains the 
+We provide the [preprocessed data for this task at this  link](https://drive.google.com/file/d/1ARvf0SkA9a0K_s0KPKWDOi-QL9kVGrRd/view?usp=sharing) - please unzip the data in folder `data/task3`. The subfolder `original_preprocessed` contains the 
 training data preprocessed into a resolution of 224x224 and the train/validation index 
 (ratio validation size= 20% training size).  The folder `original_foa_center` and `val_foa_center` contains the object 
 center location for each  sample of the train and validation set (same filename as the ones in `original_preprocessed`). 
