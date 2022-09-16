@@ -24,7 +24,7 @@ Have a look at the [Colab Notebook](https://github.com/mtiezzi/foveated_neural_c
 
 A very tiny example. If you would create a Conv2d layer in PyTorch as follows:
 
-.. code:: python
+
 
     import torch     
     h = 224
@@ -42,7 +42,7 @@ A very tiny example. If you would create a Conv2d layer in PyTorch as follows:
 Then, you can easily define and use a Piecewise-FCL as follows:
 
 
-.. code:: python
+
 
     # set the FOA coordinates to the center of the image
     foa_xy = torch.tensor([[h // 2, w // 2]], dtype=torch.long)
