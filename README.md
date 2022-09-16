@@ -20,7 +20,7 @@ Follow the [instructions](https://pytorch.org/get-started/) on the official webs
 
 QUICK START: DEFINING Foveated Convolutional Layers (FCLs)
 --------------------------
-Have a look at the [Colab Notebook](https://github.com/mtiezzi/foveated_neural_computation/blob/main/foveated_convolutional_layer.ipynb) for a complete example on how to define and use all the Foveated Convolutional Layers!
+Have a look at the [Colab Notebook](https://github.com/sailab-code/foveated_neural_computation/blob/main/foveated_convolutional_layer.ipynb) for a complete example on how to define and use all the Foveated Convolutional Layers!
 
 A very tiny example. If you would create a Conv2d layer in PyTorch as follows:
 
@@ -53,7 +53,7 @@ Then, you can easily define and use a Piecewise-FCL as follows:
     out = net(image, foa_xy)
 
 
-Have a look at the [Colab Notebook](https://github.com/mtiezzi/foveated_neural_computation/blob/main/foveated_convolutional_layer.ipynb) for a complete example on how to define and use all the Foveated Convolutional Layers : Gaussian Modulated (GM-FCL), Neural Modulated/Generated (NM/NG-FCLs)!
+Have a look at the [Colab Notebook](https://github.com/sailab-code/foveated_neural_computation/blob/main/foveated_convolutional_layer.ipynb) for a complete example on how to define and use all the Foveated Convolutional Layers : Gaussian Modulated (GM-FCL), Neural Modulated/Generated (NM/NG-FCLs)!
 
 
 REPOSITORY DESCRIPTION
