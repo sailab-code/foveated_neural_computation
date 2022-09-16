@@ -18,6 +18,42 @@ We tested the code with PyTorch 1.10.
 Follow the [instructions](https://pytorch.org/get-started/) on the official website for further details.
 
 
+QUICK START: DEFINING FCLs
+--------------------------
+Have a look at the [Colab Notebook](https://github.com/mtiezzi/foveated_neural_computation/blob/main/foveated_convolutional_layer.ipynb) for a complete example on how to define and use all the Foveated Convolutional Layers!
+
+A very tiny example. If you would create a Conv2d layer in PyTorch as follows:
+
+.. code:: python
+    import torch 
+    
+    h = 224
+    w = 224
+    in_channels = 3
+    out_channels = 4
+    kernel_size = 7
+    device = "cpu"
+    
+    image = torch.rand((1, 3, h, w)) # some random input tensor
+    netc = torch.nn.Conv2d(in_channels, out_channels, kernel_size, padding=kernel_size//2, padding_mode='zeros')
+    out = net(image)
+
+
+Then, you can easily define and use a Piecewise-FCL as follows:
+
+
+.. code:: python
+    # set the FOA coordinates to the center of the image
+    foa_xy = torch.tensor([[h // 2, w // 2]], dtype=torch.long)
+    net = FovConv2dReg(in_channels, out_channels, kernel_size, 
+                        region_type="circle", method="downscaling",
+                        padding_mode='zeros', region_sizes=(151, -1), 
+                        reduction_factors=(1.0, .5), banks="shared")
+    out = net(image, foa_xy)
+
+
+
+
 
 REPOSITORY DESCRIPTION
 ----------------------
