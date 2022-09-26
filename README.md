@@ -35,7 +35,7 @@ A very tiny example. If you would create a Conv2d layer in PyTorch as follows:
     device = "cpu"
     
     image = torch.rand((1, 3, h, w)) # some random input tensor
-    netc = torch.nn.Conv2d(in_channels, out_channels, kernel_size, padding=kernel_size//2, padding_mode='zeros')
+    net = torch.nn.Conv2d(in_channels, out_channels, kernel_size, padding=kernel_size//2, padding_mode='zeros')
     out = net(image)
 
 
