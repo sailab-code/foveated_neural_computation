@@ -1,6 +1,6 @@
 # ECML-PKDD 2022- **Foveated Neural Computation**
 
-This repository contains the code and data  for the paper **Foveated Neural Computation**, accepted for publication at the ECML-PKDD 2022 conference. 
+This repository contains the code and data  for the paper [**Foveated Neural Computation**](https://2022.ecmlpkdd.org/wp-content/uploads/2022/09/sub_620.pdf), accepted for publication at the ECML-PKDD 2022 conference. 
 
 *Authors:*  [Matteo Tiezzi](https://mtiezzi.github.io/), Simone Marullo,  Alessandro Betti, Enrico Meloni, Lapo Faggi, Marco Gori and Stefano Melacci.
 
