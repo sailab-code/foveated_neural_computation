@@ -4,6 +4,7 @@ This repository contains the code and data  for the paper [**Foveated Neural Com
 
 *Authors:*  [Matteo Tiezzi](https://mtiezzi.github.io/), Simone Marullo,  Alessandro Betti, Enrico Meloni, Lapo Faggi, Marco Gori and Stefano Melacci.
 
+DOI: [**Foveated Neural Computation**](https://link.springer.com/chapter/10.1007/978-3-031-26409-2_2)
 
 _Notice that reproducibility is not guaranteed by PyTorch across different releases, platforms, hardware. Moreover,
 determinism cannot be enforced due to use of PyTorch operations for which deterministic implementations do not exist
